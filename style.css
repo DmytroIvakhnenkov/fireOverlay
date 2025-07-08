@@ -1,0 +1,10 @@
+.transparent-window {
+    background-color: transparent; 
+    background: transparent;
+}
+
+.overlay-label {
+    font-size: 32px;
+    color: white;
+    margin: 32px;
+}
