@@ -29,10 +29,10 @@ while i < len(sessions) - 1:
         i += 2
     else:
         i += 1
-        
-end = datetime.now()
-if sessions[-1][1] == "start":
-    work_time += end - sessions[-1][0]
+if len(sessions) > 1:        
+    end = datetime.now()
+    if sessions[-1][1] == "start":
+        work_time += end - sessions[-1][0]
 
 # Compute progress
 hours = work_time.total_seconds() / 3600
