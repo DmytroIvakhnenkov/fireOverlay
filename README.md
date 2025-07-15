@@ -10,3 +10,5 @@ bind = $mainMod SHIFT, D, exec, tmux new-session -d -s overlaySession $HOME/fire
 bind = $mainMod SHIFT, D, exec, python3 $HOME/fireOverlay/startWork.py<br>
 bind = $mainMod ALT, D, exec, tmux kill-session -t overlaySession<br>
 bind = $mainMod ALT, D, exec, python3 $HOME/fireOverlay/endWork.py<br>
+
+Make sure that every file is executable by using "chmod +x filename"
