@@ -8,7 +8,7 @@ with open("/home/dmytro/fireOverlay/timeRecords.csv", 'r') as timeRecords:
         last_row = row
         startTime = last_row[0]
 
-finishTime = None
+finishTime = None   
 with open("/home/dmytro/fireOverlay/timeRecords.csv", 'a') as timeRecords:
     writer = csv.writer(timeRecords)
     now = datetime.now()
